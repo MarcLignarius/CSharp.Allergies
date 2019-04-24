@@ -40,20 +40,21 @@ namespace Allergies.Tests
       Assert.AreEqual(true, score.GetChocolate());
     }
 
+    [TestMethod]
+    public void GetAllergyScores_IsAllergicToTomatoes_True()
+    {
+      //Arrange
+      AllergyScores score = new AllergyScores(16);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(true, score.GetTomatoes());
+    }
+
   }
 }
 
-// [TestMethod]
-// public void GetAllergyScores_IsAllergicToTomatoes_True()
-// {
-//   //Arrange
-//   AllergyScores score = new AllergyScores(16);
-//   //Act
-//
-//   //Arrange
-//   Assert.AreEqual(true, score.GetTomatoes());
-// }
-//
+
 // [TestMethod]
 // public void GetAllergyScores_IsAllergicToStrawberries_True()
 // {

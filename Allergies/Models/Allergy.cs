@@ -81,13 +81,15 @@ namespace Allergies.Models
       return Chocolate;
     }
 
+    public bool GetTomatoes()
+    {
+      return Tomatoes;
+    }
+
   }
 }
 
-// public bool GetTomatoes()
-// {
-//   return Tomatoes;
-// }
+
 //
 // public bool GetStrawberries()
 // {
