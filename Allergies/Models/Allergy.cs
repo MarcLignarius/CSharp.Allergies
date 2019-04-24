@@ -86,11 +86,11 @@ namespace Allergies.Models
       return Tomatoes;
     }
 
-    // public bool GetStrawberries()
-    // {
-    //   return Strawberries;
-    // }
-    //
+    public bool GetStrawberries()
+    {
+      return Strawberries;
+    }
+    
     // public bool GetShellfish()
     // {
     //   return Shellfish;
