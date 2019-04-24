@@ -18,5 +18,15 @@ namespace Allergies.Tests
       Assert.AreEqual(true, score.GetCats());
     }
 
+    [TestMethod]
+    public void GetAllergyScores_IsAllergicToPollen_True()
+    {
+      //Arrange
+      AllergyScores score = new AllergyScores(64);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(true, score.GetPollen());
+    }
   }
 }

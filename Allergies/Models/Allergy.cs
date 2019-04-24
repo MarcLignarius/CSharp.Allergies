@@ -63,11 +63,11 @@ namespace Allergies.Models
     {
       return Cats;
     }
-    //
-    // public int GetDimes()
-    // {
-    //   return Dimes;
-    // }
+
+    public bool GetPollen()
+    {
+      return Pollen;
+    }
     //
     // public int GetNickels()
     // {
