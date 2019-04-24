@@ -29,6 +29,11 @@ namespace Allergies.Models
         Cats=true;
         score -= 128;
       }
+      if(score>= 64 && score <=127)
+      {
+        Pollen=true;
+        score -= 64 ;
+      }
     }
 
     // public ChangeMake(int money)
