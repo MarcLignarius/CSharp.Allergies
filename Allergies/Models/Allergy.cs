@@ -91,11 +91,11 @@ namespace Allergies.Models
       return Strawberries;
     }
 
-    // public bool GetShellfish()
-    // {
-    //   return Shellfish;
-    // }
-    //
+    public bool GetShellfish()
+    {
+      return Shellfish;
+    }
+    
     // public bool GetPeanuts()
     // {
     //   return Peanuts;

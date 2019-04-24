@@ -61,17 +61,17 @@ namespace Allergies.Tests
       //Arrange
       Assert.AreEqual(true, score.GetStrawberries());
     }
-    //
-    // [TestMethod]
-    // public void GetAllergyScores_IsAllergicToShellfish_True()
-    // {
-    //   //Arrange
-    //   AllergyScores score = new AllergyScores(4);
-    //   //Act
-    //
-    //   //Arrange
-    //   Assert.AreEqual(true, score.GetShellfish());
-    // }
+
+    [TestMethod]
+    public void GetAllergyScores_IsAllergicToShellfish_True()
+    {
+      //Arrange
+      AllergyScores score = new AllergyScores(4);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(true, score.GetShellfish());
+    }
     //
     // [TestMethod]
     // public void GetAllergyScores_IsAllergicToPeanuts_True()
