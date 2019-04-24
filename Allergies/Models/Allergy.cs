@@ -54,16 +54,16 @@ namespace Allergies.Models
         Shellfish=true;
         score -= 4 ;
       }
-      // if(score>= 2)
-      // {
-      //   Peanuts=true;
-      //   score -= 2 ;
-      // }
-      // if(score>= 1)
-      // {
-      //   Eggs=true;
-      //   score -= 1 ;
-      // }
+      if(score>= 2)
+      {
+        Peanuts=true;
+        score -= 2 ;
+      }
+      if(score>= 1)
+      {
+        Eggs=true;
+        score -= 1 ;
+      }
     }
 
     public bool GetCats()
