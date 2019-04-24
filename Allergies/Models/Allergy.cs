@@ -29,11 +29,41 @@ namespace Allergies.Models
         Cats=true;
         score -= 128;
       }
-      if(score>= 64 && score <=127)
+      if(score>= 64)
       {
         Pollen=true;
         score -= 64 ;
       }
+      if(score>= 32)
+      {
+        Chocolate=true;
+        score -= 32 ;
+      }
+      // if(score>= 16)
+      // {
+      //   Tomatoes=true;
+      //   score -= 16 ;
+      // }
+      // if(score>= 8)
+      // {
+      //   Strawberries=true;
+      //   score -= 8 ;
+      // }
+      // if(score>= 4)
+      // {
+      //   Shellfish=true;
+      //   score -= 4 ;
+      // }
+      // if(score>= 2)
+      // {
+      //   Peanuts=true;
+      //   score -= 2 ;
+      // }
+      // if(score>= 1)
+      // {
+      //   Eggs=true;
+      //   score -= 1 ;
+      // }
     }
 
     public bool GetCats()
