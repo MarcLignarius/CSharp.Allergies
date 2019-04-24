@@ -1,0 +1,17 @@
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.Tests.deps.json
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.Tests.runtimeconfig.json
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.Tests.dll
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.Tests.pdb
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.dll
+/Users/Guest/Desktop/allergies/Allergies.Tests/bin/Debug/netcoreapp2.2/Allergies.pdb
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.csproj.CopyComplete
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.dll
+/Users/Guest/Desktop/allergies/Allergies.Tests/obj/Debug/netcoreapp2.2/Allergies.Tests.pdb
