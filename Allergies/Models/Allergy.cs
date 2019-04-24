@@ -49,11 +49,11 @@ namespace Allergies.Models
         Strawberries=true;
         score -= 8 ;
       }
-      // if(score>= 4)
-      // {
-      //   Shellfish=true;
-      //   score -= 4 ;
-      // }
+      if(score>= 4)
+      {
+        Shellfish=true;
+        score -= 4 ;
+      }
       // if(score>= 2)
       // {
       //   Peanuts=true;
@@ -95,16 +95,16 @@ namespace Allergies.Models
     {
       return Shellfish;
     }
-    
-    // public bool GetPeanuts()
-    // {
-    //   return Peanuts;
-    // }
-    //
-    // public bool GetEggs()
-    // {
-    //   return Eggs;
-    // }
+
+    public bool GetPeanuts()
+    {
+      return Peanuts;
+    }
+
+    public bool GetEggs()
+    {
+      return Eggs;
+    }
 
   }
 }

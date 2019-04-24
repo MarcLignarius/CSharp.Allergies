@@ -72,28 +72,28 @@ namespace Allergies.Tests
       //Arrange
       Assert.AreEqual(true, score.GetShellfish());
     }
-    //
-    // [TestMethod]
-    // public void GetAllergyScores_IsAllergicToPeanuts_True()
-    // {
-    //   //Arrange
-    //   AllergyScores score = new AllergyScores(2);
-    //   //Act
-    //
-    //   //Arrange
-    //   Assert.AreEqual(true, score.GetPeanuts());
-    // }
-    //
-    // [TestMethod]
-    // public void GetAllergyScores_IsAllergicToEggs_True()
-    // {
-    //   //Arrange
-    //   AllergyScores score = new AllergyScores(1);
-    //   //Act
-    //
-    //   //Arrange
-    //   Assert.AreEqual(true, score.GetEggs());
-    // }
+
+    [TestMethod]
+    public void GetAllergyScores_IsAllergicToPeanuts_True()
+    {
+      //Arrange
+      AllergyScores score = new AllergyScores(2);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(true, score.GetPeanuts());
+    }
+
+    [TestMethod]
+    public void GetAllergyScores_IsAllergicToEggs_True()
+    {
+      //Arrange
+      AllergyScores score = new AllergyScores(1);
+      //Act
+
+      //Arrange
+      Assert.AreEqual(true, score.GetEggs());
+    }
 
   }
 }
