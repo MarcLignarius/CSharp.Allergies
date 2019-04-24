@@ -39,11 +39,11 @@ namespace Allergies.Models
         Chocolate=true;
         score -= 32 ;
       }
-      // if(score>= 16)
-      // {
-      //   Tomatoes=true;
-      //   score -= 16 ;
-      // }
+      if(score>= 16)
+      {
+        Tomatoes=true;
+        score -= 16 ;
+      }
       // if(score>= 8)
       // {
       //   Strawberries=true;
@@ -86,27 +86,25 @@ namespace Allergies.Models
       return Tomatoes;
     }
 
+    // public bool GetStrawberries()
+    // {
+    //   return Strawberries;
+    // }
+    //
+    // public bool GetShellfish()
+    // {
+    //   return Shellfish;
+    // }
+    //
+    // public bool GetPeanuts()
+    // {
+    //   return Peanuts;
+    // }
+    //
+    // public bool GetEggs()
+    // {
+    //   return Eggs;
+    // }
+
   }
 }
-
-
-//
-// public bool GetStrawberries()
-// {
-//   return Strawberries;
-// }
-//
-// public bool GetShellfish()
-// {
-//   return Shellfish;
-// }
-//
-// public bool GetPeanuts()
-// {
-//   return Peanuts;
-// }
-//
-// public bool GetEggs()
-// {
-//   return Eggs;
-// }
