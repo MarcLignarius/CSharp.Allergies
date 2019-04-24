@@ -36,34 +36,6 @@ namespace Allergies.Models
       }
     }
 
-    // public ChangeMake(int money)
-    // {
-    //   Quarters = 0;
-    //   Dimes = 0;
-    //   Nickels = 0;
-    //   Pennies = 0;
-    //   while(money >= 25)
-    //   {
-    //     money -= 25;
-    //     Quarters++;
-    //   }
-    //   while(money >=10)
-    //   {
-    //     money -= 10;
-    //     Dimes++;
-    //   }
-    //   while(money >=5)
-    //   {
-    //     money -= 5;
-    //     Nickels++;
-    //   }
-    //   while(money >=1)
-    //   {
-    //     money -= 1;
-    //     Pennies++;
-    //   }
-    // }
-    //
     public bool GetCats()
     {
       return Cats;
@@ -73,21 +45,36 @@ namespace Allergies.Models
     {
       return Pollen;
     }
-    //
-    // public int GetNickels()
-    // {
-    //   return Nickels;
-    // }
-    //
-    // public int GetPennies()
-    // {
-    //   return Pennies;
-    // }
-    //
-    // public string GiveChange()
-    // {
-    //   return "Quarters: " + Quarters + ", Dimes: " + Dimes + ", Nickels: " + Nickels + ", Pennies: " + Pennies;
-    // }
+
+    public bool GetChocolate()
+    {
+      return Chocolate;
+    }
 
   }
 }
+
+// public bool GetTomatoes()
+// {
+//   return Tomatoes;
+// }
+//
+// public bool GetStrawberries()
+// {
+//   return Strawberries;
+// }
+//
+// public bool GetShellfish()
+// {
+//   return Shellfish;
+// }
+//
+// public bool GetPeanuts()
+// {
+//   return Peanuts;
+// }
+//
+// public bool GetEggs()
+// {
+//   return Eggs;
+// }
