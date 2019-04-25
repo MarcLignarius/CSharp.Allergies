@@ -1,27 +1,12 @@
-# _{Application Name}_
+# _Allergies_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This program assigns a score to different allergies and returns a list of allergies based on a user input (back end only), 04/24/2019_
 
-#### By _**Marc Davies**_
+#### By _**Marc Davies and Jared Farkas**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
-
-## Setup/Installation Requirements
-
-* _Clone from GitHub_
-* _In your terminal, $mono ProjectName.exe_
-
-## Specs
-
-| Behavior | Input | Output |
-| ------------- |:-------------:| -----:|
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
+_This program assigns a score to different allergies and returns a list of allergies based on a user input (back end only)_
 
 ## Known Bugs
 
@@ -39,4 +24,4 @@ _C#_
 
 *This software is licensed under the GPL license.*
 
-Copyright (c) 2019 **_Marc Davies_**
+Copyright (c) 2019 **_Marc Davies and Jared Farkas_**
